@@ -12,6 +12,7 @@ the year 2018.
 ■ zichen
 ■ zidon
 
+
 Implementation:
 ● Pre-process the data and append full stop at the end of every name
 ● Input to the network consist of character n-grams
@@ -31,7 +32,9 @@ zidon.
 ● The one-hot encoding for the characters is as follows:
 z: [1, 0, 0, 0, 0, 0, 0, 0, …, 0]
 i: [0, 1, 0, 0, 0, 0, 0, 0, …, 0]
-…
+
+
+
 ● The dimensionality of input: [2 x 27] (in case of 2-gram) or [3 x 27] (in case of
 3-gram)
 ● Note: You can also introduce a batch dimension
