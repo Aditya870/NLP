@@ -59,9 +59,7 @@ Feed-Forward NN:
     
     ○ hidden_layer_1 — hidden_layer_2 (hidden_layer_2 size is 64)
     
-  ● Finally, hidden_layer_2 — Output (Output size is 27 as the model needs to
-  
-    predict any one of the character from the vocabulary)
+  ● Finally, hidden_layer_2 — Output (Output size is 27 as the model needs to predict any one of the character from the vocabulary)
     
   ● Use non-linearity of your choice (tanh, relu, gelu etc.) between hidden layers
 
