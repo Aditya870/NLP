@@ -1,4 +1,4 @@
-Create 2-gram and 3-gram character-level language models with Feed Forward Neural Network
+Create 2-gram and 3-gram character-level language models with Recurrent Neural Network
 
 Dataset:
 
