@@ -49,13 +49,20 @@ i: [0, 1, 0, 0, 0, 0, 0, 0, …, 0]
 ● Since the network takes a fixed length input (2 in case of 2-gram and 3 in case of 3-gram), no need to PAD the corpus.
 
 Feed-Forward NN:
+
 ● Explain and draw the architecture of Feed-Forward NN that you are proposing
   with justification.
+  
   ● Network should contain TWO hidden layers
+  
     ○ input — hidden_layer_1 (hidden_layer_1 size is 128)
+    
     ○ hidden_layer_1 — hidden_layer_2 (hidden_layer_2 size is 64)
+    
   ● Finally, hidden_layer_2 — Output (Output size is 27 as the model needs to
+  
     predict any one of the character from the vocabulary)
+    
   ● Use non-linearity of your choice (tanh, relu, gelu etc.) between hidden layers
 
 
